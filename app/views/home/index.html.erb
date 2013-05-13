@@ -1,0 +1,9 @@
+<div class="video-list">
+  <ul>
+    <% @videos.each do |v| %>
+      <li class="video active"><%= link_to v.name, v.name, :remote => true %></li>
+    <% end %>
+  </ul>
+</div>
+
+<%= render 'video', :current_video => @current_video %>

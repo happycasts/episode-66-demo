@@ -1,0 +1,28 @@
+ul {
+  padding: 0;
+  list-style: none;
+  display: table-row;
+  li {
+    display: table-cell;
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+  }
+}
+.header {
+  min-height: 200px;
+}
+.footer {
+  min-height: 200px;
+}
+.video-list {
+  list-style: none;
+  .video {
+    width: 200px;
+    a {
+      font-weight: 700;
+      font-family: "klavika-web", "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif !important;
+      color: green !important;
+    }
+  }
+}
